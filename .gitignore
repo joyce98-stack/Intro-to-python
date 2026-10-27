@@ -1,0 +1,6 @@
+.venv
+.env
+
+#git innit
+#git add .
+#git commit -m "python basics"
