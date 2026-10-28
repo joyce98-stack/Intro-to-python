@@ -6,12 +6,11 @@
 # • Obesity (Class II): 35.0 to 39.9
 # • Severe Obesity (Class III): 40.0 or higher
 
-weight = input("please enter your weight in kgs:")
-height = input( "please enter your height in m :")
+weight = input("please enter your weight in Kilograms:")
+height = input( "please enter your height in Meters:")
 
 w = float(weight)
 h = float(height)
-
 bmi = w / h**2
 
 if bmi< 18.5:
