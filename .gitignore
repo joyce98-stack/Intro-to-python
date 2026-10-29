@@ -3,6 +3,7 @@
 .idea
 *.mp3
 *.txt
+!requirements.txt
 
 #git innit
 #git add .
