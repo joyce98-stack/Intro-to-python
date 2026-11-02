@@ -22,6 +22,12 @@ class ContractEmployee(Employee):
         super().__init__(name, email, department, salary)
         self.tenure = tenure
 
+    def show_details(self):
+        print(f"Name {self.name}")
+        print(f"Email{self.email}")
+
+
+
 
 p1 = PermanentEmployee("kyn kelly", "kk@gmail.com", "tech", 100_000, "britam",0)
 c1 = ContractEmployee("kiara joy", "kj@gmail.com", "finance", 70_000, 3)
@@ -30,4 +36,5 @@ p1.show_details()
 c1.show_details()
 
 # TODO overriding
+# on monday
 

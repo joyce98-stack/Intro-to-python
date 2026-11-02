@@ -66,12 +66,12 @@ print(joyce.names, joyce.calc_age())
 # dob = '2004-08-15'  # Y.m.d
 
 # today = date.today()
-# # print(f"{today.day}--{today.month}--{today.year}")
-# # convert string to date
+# print(f"{today.day}--{today.month}--{today.year}")
+# convert string to date
 # birth_date = date.strptime(dob,'%Y-%m-%d')
-#
+
 # age = today.year - birth_date.year
 # print(age)
-#
+
 # accurate_age = today - birth_date
 # print(accurate_age)
